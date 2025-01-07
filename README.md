@@ -4,7 +4,7 @@
 
 1. Склонировать проект:
 ```bash
-git@github.com:DorianGrayPicture/python_final_project.git
+git clone git@github.com:DorianGrayPicture/python_final_project.git
 ```
 
 2. Внутри корневой директории запустить проект:
@@ -16,3 +16,13 @@ docker-compose up -d
 ```URL
 http://localhost:8080
 ```
+
+4. Ввести данные для входа:
+- **login:** `admin`
+- **password** `admin`
+
+## Airflow DAGs
+
+#### 1. **initial_migration**
+Запускается при инициализации.
+Создает таблицы в PSQL и MySQL
