@@ -24,14 +24,14 @@ http://localhost:8080
 ## Airflow DAGs
 
 ### 1. **initial_migration**
--Запускается при инициализации.
--Создает таблицы в PostgreSQL и MySQL
+- Запускается при инициализации
+- Создает таблицы в PostgreSQL и MySQL
 
 ### 2. **transfer_postgres_mysql**
--Репликация данных из PostgreSQL в MySQL
+- Репликация данных из PostgreSQL в MySQL
 
 ### 3. **data_marts**
--Построение аналитических витрин
+- Построение аналитических витрин
 
 
 ## Аналитическая витрина `sales_analysis`
